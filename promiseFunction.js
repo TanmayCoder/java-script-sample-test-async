@@ -1,5 +1,5 @@
 const myPromise = new Promise((resolve, reject) => {
-  const error = true;
+  const error = false;
   if (!error) {
     resolve('Yes the promise is resolvesd!!!');
   } else {
